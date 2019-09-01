@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: flask-app-tutorial
-          image: gcr.io/YOUR_GCP_PROJECT_NAME/flask-app:v2
+          image: gcr.io/aaron-ds-sandbox/flask-app:v2
           ports:
             - containerPort: 8080
           resources:
